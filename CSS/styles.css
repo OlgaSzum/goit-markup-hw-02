@@ -1,10 +1,5 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color:var(--text)
-}
-
 :root {
-    --primary-brand:#4D5AE5;
+    --primary-brand: #4D5AE5;
     --pressed-state: #404BBF;
     --dark: #2E2F42;
     --success: #31D0AA;
@@ -16,6 +11,11 @@ body {
     --hero-background: #2E2F42B2;
     --white-background: #FFFFFF;
     --modal-background: #FCFCFC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color:var(--text)
 }
 
 /* MARGIN RESEST*/
@@ -46,6 +46,7 @@ body {
 .button {
     text-decoration: none;
     cursor: pointer;
+    font-family: "Roboto"
 }
 
 .button:hover, 
@@ -88,7 +89,6 @@ letter-spacing: 0.03em;
 
 .contact a {
     font-family: inherit;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--text)
@@ -144,7 +144,6 @@ letter-spacing: 0.03em;
 
 .gallery p {
     font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
@@ -177,8 +176,6 @@ letter-spacing: 0.03em;
     background-color: var(--dark);
 }
 .footer__text {
-    font-family: "Roboto";
-    font-weight: 400;
     font-size: 16px;
     line-height: 2.4;
     letter-spacing: 0.02em;
